@@ -99,7 +99,7 @@ jobs:
           Q16_MODE: ${{ env.Q16_MODE }}
           Q16_TARGET_ISSUE: ${{ env.Q16_TARGET_ISSUE }}
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: >-
             Run /code-review and review only this pull request. Do not modify repository
             contents, create branches or commits, access secrets, or interact with issues
