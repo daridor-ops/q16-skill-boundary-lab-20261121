@@ -1,0 +1,6 @@
+{
+  "schema": "sprk3-q16-owned-lab-v1",
+  "purpose": "isolated skill-boundary validation",
+  "production": false,
+  "external_targets_authorized": false
+}
